@@ -1,3 +1,15 @@
-<p>
-  header works!
-</p>
+<header>
+  <div class="row">
+    <div class="columns large-3">
+      <a id="logo" [routerLink]="['/']">Linha.net</a>
+    </div>
+    <div class="columns large-9">
+      <ul>
+        <li><a [routerLink]="['/']" routerLinkActive="router-link-active">Home</a></li>
+        <li><a [routerLink]="['/about']" routerLinkActive="router-link-active">About</a></li>
+        <li><a [routerLink]="['/portfolio']" routerLinkActive="router-link-active">Portfolio</a></li>
+        <li><a [routerLink]="['/products']" routerLinkActive="router-link-active">Products</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
