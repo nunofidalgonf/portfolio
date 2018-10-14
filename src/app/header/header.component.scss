@@ -26,6 +26,10 @@ header {
       display: block;
       font-weight: 400;
 
+      &.router-link-active {
+        color: #ff7b00;
+      }
+
       &:hover {
         color: #ff7b00;
         text-decoration: #ff7b00;
