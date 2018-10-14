@@ -1,0 +1,25 @@
+.three-board {
+  background-color: rgba(43, 43, 43, 0.66);
+  padding: 25px 15px;
+  text-align: center;
+
+  p {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  ul li {
+    list-style: none;
+    color: #848484;
+    font-size: 12px;
+    display: inline;
+    border-right: 1px solid #848484;
+    padding: 0px 5px;
+
+    &:first-child {
+      border-left: 1px solid #848484;
+    }
+
+  }
+
+}
