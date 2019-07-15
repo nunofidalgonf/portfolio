@@ -1,0 +1,17 @@
+<section id="login">
+  <p-card>
+    <p-header>
+        <img src="https://via.placeholder.com/400x200" alt="">
+        <h1>Login here</h1>
+    </p-header>
+    <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+      <label for="email">Email</label>
+      <input type="email" name="email" pInputText formControlName="email"/>
+      <label for="password">Password</label>
+      <input type="password" name="password" pInputText formControlName="password"/>
+      <p-footer>
+        <button type="submit">Login</button>
+      </p-footer>
+    </form>
+    </p-card>
+</section>
