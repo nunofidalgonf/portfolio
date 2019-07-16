@@ -1,3 +1,9 @@
+#login {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
 #login .ui-card {
     width: 400px;
     margin: 0 auto;

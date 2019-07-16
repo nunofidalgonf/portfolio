@@ -22,11 +22,15 @@ export class LoginComponent implements OnInit {
   }
 
   public onLogin(): void {
-    console.warn(this.loginForm.value);
+    this.authService.login(this.loginForm.value.email, this.loginForm.value.password).then((user) => {
+      // const userId: string = user.id;
+      // this.getUserInfo(userId);
+      console.log(user);
+    });
   }
 
-  private getUserInfo() {
-
+  private getUserInfo(userId: string) {
+    
   }
 
 }
