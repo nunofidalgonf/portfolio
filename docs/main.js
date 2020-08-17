@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<header>\r\n  <div class=\"row\">\r\n    <div class=\"columns large-3\">\r\n      <a id=\"logo\" [routerLink]=\"['/']\">Linha.net</a>\r\n    </div>\r\n    <div class=\"columns large-9\">\r\n      <ul>\r\n        <li><a [routerLink]=\"['/']\" routerLinkActive=\"router-link-active\">Home</a></li>\r\n        <li><a [routerLink]=\"['/about']\" routerLinkActive=\"router-link-active\">About</a></li>\r\n        <li><a [routerLink]=\"['/portfolio']\" routerLinkActive=\"router-link-active\">Portfolio</a></li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</header>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<header>\r\n  <div class=\"row\">\r\n    <div class=\"columns large-3\">\r\n      <a id=\"logo\" [routerLink]=\"['/']\">I am Fidalgo</a>\r\n    </div>\r\n    <div class=\"columns large-9\">\r\n      <ul>\r\n        <li><a [routerLink]=\"['/']\" routerLinkActive=\"router-link-active\">Home</a></li>\r\n        <li><a [routerLink]=\"['/about']\" routerLinkActive=\"router-link-active\">About</a></li>\r\n        <li><a [routerLink]=\"['/portfolio']\" routerLinkActive=\"router-link-active\">Portfolio</a></li>\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</header>\r\n");
 
 /***/ }),
 
@@ -291,11 +291,6 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var routes = [
     {
         path: '',
-        redirectTo: 'home',
-        pathMatch: 'full'
-    },
-    {
-        path: 'home',
         component: _pages_homepage_homepage_component__WEBPACK_IMPORTED_MODULE_2__["HomepageComponent"]
     },
     {
