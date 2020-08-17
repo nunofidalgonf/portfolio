@@ -8,11 +8,6 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 export const routes: Routes = [
     {
         path: '',
-        redirectTo: 'home',
-        pathMatch: 'full'
-    },
-    {
-        path: 'home',
         component: HomepageComponent
     },
     {
