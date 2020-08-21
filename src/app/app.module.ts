@@ -18,6 +18,8 @@ import { LoginComponent } from './pages/login/login.component';
 import { CardModule } from 'primeng/card';
 import { InputTextModule } from 'primeng/inputtext';
 import { ReactiveFormsModule } from '@angular/forms';
+import { FooterComponent } from './components/footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     AboutComponent,
     PortfolioComponent,
     HomepageComponent,
-    LoginComponent
+    LoginComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -39,7 +42,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     AngularFireAuthModule,
     CardModule,
     InputTextModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

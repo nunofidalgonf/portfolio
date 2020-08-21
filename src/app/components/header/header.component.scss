@@ -1,9 +1,10 @@
 header {
   background: transparent;
+  font-size: 20px;
 
   #logo {
-    color: #ff7b00;
-    font-weight: 700;
+    color: white;
+    font-weight: 400;
     padding: 15px 0;
     display: block;
   }
@@ -21,18 +22,14 @@ header {
     }
 
     a {
-      color: #ffffff;
+      color: white;
       padding: 15px 30px;
       display: block;
       font-weight: 400;
 
-      &.router-link-active {
-        color: #ff7b00;
-      }
-
-      &:hover {
-        color: #ff7b00;
-        text-decoration: #ff7b00;
+      &.router-link-active, &:hover {
+        color: white;
+        text-decoration: white;
       }
 
     }
