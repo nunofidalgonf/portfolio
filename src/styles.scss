@@ -64,6 +64,44 @@ canvas {
   z-index: -99;
 }
 
+li {
+  text-decoration: none;
+  transition: text-decoration 1s;
+  // display: inline-block;
+  list-style: none;
+  &::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: relative;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  &:hover {
+      &::after {
+      width: 100%; 
+      left: 0;
+    }
+  }
+  &.active {
+      &:hover{
+        &::after {
+        width: 0; 
+        left: 0;
+      }
+    }
+  }
+}
+
+ul {
+  margin: 0 0;
+  padding: 0 0;
+}
+
 .page {
   width: 100%;
   display: flex;
@@ -71,6 +109,10 @@ canvas {
   position: relative;
   justify-content: center;
   align-items: center;
+
+  .flex-mid {
+    flex: 0 0 45%;
+  }
 
   .left-content {
     text-align: left;
