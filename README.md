@@ -1,27 +1,18 @@
-# PortfolioAngularApp
+# IAMF (I am Fidalgo)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
+## Description
 
-## Development server
+|   | Explanation  |
+|---|---|
+| Project Name  | IAMF (I am Fidalgo)  |
+| Project Description  | Portfolio website  |
+| Who is this for?  |  Me, the idea is to show more about me and my projects. You can view the final result in https://iamfidalgo.com |
+| Feature List (Product requirements)|  CSS and Threejs animations, resume, projects list, contacts, admin, blog, backend |
+| Observations | This project is always under improvment with new features and ideas  |
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Technologies
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Angular 9+
+- Github pages
+- Github CI
+- Integration with personal Jira

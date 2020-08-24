@@ -1,25 +1,45 @@
-.three-board {
-  background-color: rgba(43, 43, 43, 0.66);
-  padding: 25px 15px;
-  text-align: center;
+.about-page {
+  color: white;
 
-  p {
-    font-size: 12px;
-    margin-bottom: 15px;
+  ul {
+    margin: 0 0;
+    padding: 0 0;
+
+    li {
+      list-style: none;
+      padding: 0 0;
+      margin: 0 0;
+      cursor: pointer;
+    }
   }
 
-  ul li {
-    list-style: none;
-    color: #848484;
-    font-size: 12px;
-    display: inline;
-    border-right: 1px solid #848484;
-    padding: 0px 5px;
+  .left-content {
+    p {
+      margin-bottom: 56px;
+    }
+    li {
+      font-size: 30px;
 
-    &:first-child {
-      border-left: 1px solid #848484;
+      &.active {
+        text-decoration: underline;
+      }
+    }
+  }
+  .content-box {
+    width: 580px;
+    min-height: 550px;
+    background-color: #00091E;
+    border-radius: 10px;
+    text-align: left;
+    
+    padding: 25px 30px;
+
+    h3 {
+      margin-bottom: 45px;
     }
 
+    div {
+      margin-bottom: 45px;
+    }
   }
-
 }

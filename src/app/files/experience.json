@@ -1,0 +1,17 @@
+[
+  {
+    "date": "2018-2020",
+    "company": "Everis",
+    "skills": "AngularJS, Angular 5+, ReactJS, Ionic, Agile, Team leading"
+  },
+  {
+    "date": "2018-2017",
+    "company": "Madde",
+    "skills": "Ionic, PHP"
+  },
+  {
+    "date": "2016-2015",
+    "company": "MediaScreen",
+    "skills": "PHP"
+  }
+]
