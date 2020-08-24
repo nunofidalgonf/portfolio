@@ -11,6 +11,11 @@ footer {
     li {
       display: inline;
       margin-right: 70px;
+      display: inline;
+
+      &::after {
+        display: inline;
+      }
 
       a {
         color: white;
